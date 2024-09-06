@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <title>cart</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../final project/fontawesome-free-6.6.0-web/css/all.css">
+ <script src="../final project/fontawesome-free-6.6.0-web/js/all.js"></script>
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/cart.css">
+
+</head>
+<body >
+    <header id="shopAll">
+        <span class="logo">
+            <img src="./images/logo-regular.png" alt="">
+        </span>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Login</li>
+                <li>Register</li>
+                <li>Cart</li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            $<span id="cart-total">00.00</span>
+            <span id="items-basket"></span>
+        </div>
+    </header>
+
+<h1>Cart</h1>
+<table id="container">
+    <tr id="head">
+        <th class="product-remove" ></th>
+        <th class="product-img"></th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+    </tr>
+   
+    <!-- <tr class="Product">
+        <td class="product-remove">
+            <button type="button" class="close"
+             aria-hidden="true" onclick="deleteRow(this);">&times;</button>
+
+        </td>
+         <td class="product-img">
+            <img src="./image/cart1/product-09-a.jpg" width="80px" height="100px">
+         </td>
+
+         <td class="product-name">Product Name</td>
+
+
+         <td class="product-price">&#36;59.00</td>
+
+         <td class="quantity">
+            <button class="minus"  value="increment" onclick="button2()">&minus;</button>
+            <input type="number" class="input-box" value="1" min="1" max="10">
+            <button class="plus" value="decrement"onclick="button1()">&plus;</button>
+         </td>
+
+         <td class="product-subtotal" id="totalPrice"> &#36;59.00 </td>
+    </tr>     
+
+    <tr class="Product">
+        <td class="product-remove">
+            <button type="button" class="close" 
+            aria-hidden="true" onclick="deleteRow(this);">&times;</button>
+
+        </td>
+         <td class="product-img">
+            <img src="./image/Hair Care/product-04-a-246x300.jpg" width="80px" height="100px">
+         </td>
+
+         <td class="product-name">Product Name</td>
+
+
+         <td class="product-price">&#36;59.00</td>
+
+         <td class="quantity">
+            <button class="minus"  value="increment" onclick="button2()">&minus;</button>
+            <input type="number" class="input-box" value="1" min="1" max="10">
+            <button class="plus" value="decrement"onclick="button1()">&plus;</button>
+         </td>
+
+         <td class="product-subtotal" id="totalPrice"> &#36;59.00 </td>
+    </tr>     
+
+  
+    <tr class="Product">
+        <td class="product-remove">
+            <button type="button" class="close" 
+            aria-hidden="true" onclick="deleteRow(this);">&times;</button>
+
+        </td>
+         <td class="product-img">
+            <img src="./image/Makeup/product-06-a-246x300.jpg" width="80px" height="100px">
+         </td>
+
+         <td class="product-name">Product Name</td>
+
+
+         <td class="product-price">&#36;59.00</td>
+
+         <td class="quantity">
+            <button class="minus"  value="increment" onclick="button2()">&minus;</button>
+            <input type="number" class="input-box" value="1" min="1" max="10">
+            <button class="plus" value="decrement"onclick="button1()">&plus;</button>
+         </td>
+
+         <td class="product-subtotal" id="totalPrice"> &#36;59.00 </td>
+    </tr>     
+
+    <tr class="Product">
+        <td class="product-remove">
+            <button type="button" class="close" 
+            aria-hidden="true" onclick="deleteRow(this);">&times;</button>
+
+        </td>
+         <td class="product-img">
+            <img src="./image/Skin Care/product-13-a-246x300.jpg" width="80px" height="100px">
+         </td>
+
+         <td class="product-name">Product Name</td>
+
+
+         <td class="product-price">&#36;59.00</td>
+
+         <td class="quantity">
+            <button class="minus"  value="increment" onclick="button2()">&minus;</button>
+            <input type="number" class="input-box" value="1" min="1" max="10">
+            <button class="plus" value="decrement"onclick="button1()">&plus;</button>
+         </td>
+
+         <td class="product-subtotal" id="totalPrice"> &#36;59.00 </td>
+    </tr>      -->
+
+  </table>
+
+  <footer>
+    <section class="subscribe">
+        <span>Subscribe to our newsletter</span>
+        <form action="">
+            <input type="email" placeholder="Your email address..">
+            <input type="submit" value="SUBSCRIBE" >
+        </form>
+    </section>
+    <hr>
+    <section class="subscribe">
+        <span><img src="../images/logo-regular.png" alt=""></span>
+        <span class="block">
+            <a class="hov" href="#shopAll">
+                Shop All
+            </a>
+            <a class="hov" href="#Makeup">
+                Makeup
+            </a>
+            <a class="hov" href="#Skin-Care">
+                Skin Care
+            </a>
+        </span>
+        <span class="block">
+            <span class="hov">
+                Refund Policy
+            </span>
+            <span class="hov">
+                Terms & Conditions
+            </span>
+            <span class="hov">
+                FAQ
+            </span>
+        </span>
+        <span>
+            <span class="icon-hov">
+                <i class="fa-brands fa-facebook"></i>
+            </span>
+            <span class="icon-hov">
+                <i class="fa-brands fa-twitter"></i>
+            </span>
+            <span class="icon-hov">
+                <i class="fa-brands fa-square-instagram"></i>
+            </span>
+        </span>
+    </section>
+    <hr>
+    <section>
+        Copyright © 2024 Be Bold | Powered by Be Bold
+    </section>
+</footer>
+  
+<script src="./js/cart.js"></script>
+<script src="./js/home.js" defer></script>
+
+</body>
+</html>

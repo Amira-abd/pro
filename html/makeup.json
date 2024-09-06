@@ -1,0 +1,60 @@
+[
+        {
+            "id":1,
+            "name": "Red lipstick",
+            "origin_price": 90,
+            "current_price": 75,
+            "img": "../images/makeup/product-01-a-400x488.jpg",
+            "images":[
+                "../images/makeup/product-bg-02-100x100.jpg",
+                "../images/makeup/product-01-b-100x100.jpg",
+                "../images/makeup/product-01-c-100x100.jpg",
+                "../images/makeup/product-01-a-400x488.jpg"
+            ],
+            "description":"Ut quis sollicitudin orci. Aliquam at libero non purus sodales sagittis eu ac neque. Nunc ipsum felis, vehicula eu aliquam sed, ultricies ac lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam viverra commodo finibus. Morbi laoreet lacus quis lobortis tempor. Nam tincidunt, lectus a suscipit fringilla, mauris turpis dapibus dolor, eu venenatis diam nibh id massa.Nulla eget tortor ultrices, ultricies turpis a, accumsan turpis. Quisque dignissim semper leo ac accumsan. Quisque est nisl, bibendum ut elit quis, pellentesque vehicula tellus. Sed luctus mattis ante ac posuere."
+        },
+        {
+            "id":2,
+            "name": "Sangria lipstick",
+            "origin_price": 64,
+            "current_price": 45,
+            "img": "../images/makeup/product-05-a-300x366.jpg",
+            "images":[
+
+                "../images/makeup/product-bg-01-100x100.jpg",
+                "../images/makeup/product-05-b-100x100.jpg",
+                "../images/makeup/product-05-c-100x100.jpg",
+                "../images/makeup/product-05-a-300x366.jpg"
+               
+            ],
+            "description":"Ut quis sollicitudin orci. Aliquam at libero non purus sodales sagittis eu ac neque. Nunc ipsum felis, vehicula eu aliquam sed, ultricies ac lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam viverra commodo finibus. Morbi laoreet lacus quis lobortis tempor. Nam tincidunt, lectus a suscipit fringilla, mauris turpis dapibus dolor, eu venenatis diam nibh id massa.Nulla eget tortor ultrices, ultricies turpis a, accumsan turpis. Quisque dignissim semper leo ac accumsan. Quisque est nisl, bibendum ut elit quis, pellentesque vehicula tellus. Sed luctus mattis ante ac posuere."
+        },
+        {
+            "id":3,
+            "name": "Brown lipstick",
+            "origin_price": 96,
+            "current_price": 80,
+            "img": "../images/makeup/product-06-a-300x366.jpg",
+            "images":[
+                "../images/makeup/product-bg-03-100x100.jpg",
+                "../images/makeup/product-06-b-100x100.jpg",
+                "../images/makeup/product-06-c-100x100.jpg",
+                "../images/makeup/product-06-a-300x366.jpg"
+            ],
+            "description":"Ut quis sollicitudin orci. Aliquam at libero non purus sodales sagittis eu ac neque. Nunc ipsum felis, vehicula eu aliquam sed, ultricies ac lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam viverra commodo finibus. Morbi laoreet lacus quis lobortis tempor. Nam tincidunt, lectus a suscipit fringilla, mauris turpis dapibus dolor, eu venenatis diam nibh id massa.Nulla eget tortor ultrices, ultricies turpis a, accumsan turpis. Quisque dignissim semper leo ac accumsan. Quisque est nisl, bibendum ut elit quis, pellentesque vehicula tellus. Sed luctus mattis ante ac posuere."
+        },
+        {
+            "id":4,
+            "name": "Purple lipstick",
+            "origin_price": 90,
+            "current_price": 75,
+            "img": "../images/makeup/product-07-a-300x366.jpg",
+            "images":[
+                "../images/makeup/product-bg-04-100x100.jpg",
+                "../images/makeup/product-07-b-100x100.jpg",
+                "../images/makeup/product-07-c-100x100.jpg",
+                "../images/makeup/product-07-a-300x366.jpg"
+            ],
+            "description":"Ut quis sollicitudin orci. Aliquam at libero non purus sodales sagittis eu ac neque. Nunc ipsum felis, vehicula eu aliquam sed, ultricies ac lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam viverra commodo finibus. Morbi laoreet lacus quis lobortis tempor. Nam tincidunt, lectus a suscipit fringilla, mauris turpis dapibus dolor, eu venenatis diam nibh id massa.Nulla eget tortor ultrices, ultricies turpis a, accumsan turpis. Quisque dignissim semper leo ac accumsan. Quisque est nisl, bibendum ut elit quis, pellentesque vehicula tellus. Sed luctus mattis ante ac posuere."
+        }
+    ]

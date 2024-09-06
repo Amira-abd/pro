@@ -1,0 +1,124 @@
+body{
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  background-color: white;
+  height: 53px;
+}
+
+/* .logo img{
+  height: 30px;
+} */
+nav{
+  height:inherit;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: inherit;
+}
+nav ul li{
+  /* height: inherit; */
+  line-height: 50px;
+}
+nav ul li::before{
+  content: "";
+  background-color: black;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all .5s;
+}
+
+nav ul li:hover::before{
+  width: 100%;
+}
+
+.cart-icon i svg {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.cart-icon i {
+  position: relative;
+}
+
+.cart-icon i::before {
+  content: "1";
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  right: -10px;
+  top: -10px;
+  position: absolute;
+}
+
+h1{
+  font-size: 30px;
+}
+table {
+  border: 0.5px solid  #f0e0e5;
+  width:100% ;
+  text-align: center;
+  background-color: #cecece;
+  /* border-collapse: collapse; */
+
+ }
+
+
+
+#head{
+  font-weight:bold;
+  height: 40px;
+  color: #5d5b5b;
+}
+
+.Product td{
+  
+    border:0;
+
+}
+.Product{
+  background-color: white;
+}
+.product-remove a{
+  size: 30px;
+}
+
+
+/* quantity */
+.input-box {
+width: 20px;
+text-align: center;
+border: none;
+outline: none;
+padding: 8px 10px;
+font-size: 16px;
+}
+
+/* Hide the number input spin buttons */
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.quantity button {
+background-color: #fff;
+border :.5px solid  #f0e0e5 ;
+cursor: pointer;
+font-size: 20px;
+width: 30px;
+text-align: center;
+}
